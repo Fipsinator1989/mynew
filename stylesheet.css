@@ -1,13 +1,6 @@
 /*css hauptteil start*/
-/*#body {
- background-color:silver;  
- border:2px dotted orange; 
- float:left;
-} */
-
 #header {
- float:center;
- width:100%;
+ float-left%;
  height: 20%;
 } 
 
@@ -23,8 +16,10 @@
  height:10%;
 } 
 /*css hauptteil ende*/
-
 /*css header navigation start*/
+#header-nav {
+/* margin-left: 20%;*/
+} 
 
 #header a {
 text-decoration: none;
@@ -36,67 +31,53 @@ text-decoration: none;
 color: orange;
 } 
 
-#ueber_uns{
- background-color:pink;  
- border:2px dotted black; 
- float:left;
- width:200px;
- margin-right: 50px;
+#header img {
+margin:2%;
 } 
-#angebote {
- background-color:green;  
- border:2px dotted black; 
+
+#ueber_uns{
  float:left;
- width:200px;
- margin-right: 50px;
+ width:33%;
+ margin-left: 16%;
+} 
+#angebote { 
+ float:left;
+ width:33%;
+ /*margin-left: 50px;*/
 } 
 #kontakt {
- background-color:yellow;  
- border:2px dotted black; 
- float:right;
- width:200px;
- /*margin-left:200px;*/
+ float:left;
+ width:16%;
+ /*margin-left: 50px;*/
 } 
 /*css header navigation ende */
-
 /*css content middle start*/
-
-#punchline {
- /*background-color:RED;  */
- font-family:calibri, Garamond, Comic Sans; 
-} 
-
-#punchline h1 {
- text-align:center
- font-family:calibri, Garamond, Comic Sans; 
- font-size:29px;
-} 
-
-
 #sidebar-links {
- background-color:pink; 
  float: left; 
  width:10%;
  height:75%;
 } 
 
 #text_links {
- background-color:yellow;
  margin: 20px; 
 } 
 
 #middle {
- background-color:orange;  
  float: left;
  width:75%;
 } 
 
 #begruessungstext {
- background-color:blue;  
- vertical-align: center;
-  height:10%;
-
+ font-family:calibri, Garamond, Comic Sans; 
+ font-size:0.9em;
+ /*margin-left: 10%*/
 }
+
+#begruessungstext h1 {
+ /*text-align:center
+ font-family:calibri, Garamond, Comic Sans;*/
+}
+
 #startseitenbild {
  margin-top: 2%;
  text-align: center;
@@ -104,41 +85,40 @@ color: orange;
  }
  
  #sidebar-rechts {
- background-color:pink; 
  float: left; 
  width:15%;
  height:75%;
 } 
 
 #top_angebote{
- background-color:yellow;
  margin: 20px;  
 } 
-
 /*css content middle ende */
-
-
 /*css footer navigation start*/
+#footer a {
+text-decoration: none;
+color: grey;
+} 
+
+#footer a:hover {
+text-decoration: none;
+color: orange;
+} 
+
 #agb{
- background-color:pink;  
- border:2px dotted black; 
  float:left;
- width:200px;
- margin-right: 50px;
+ width:33%;
+ margin-left: 16%;
 } 
 #platzhalter {
- background-color:green;  
- border:2px dotted black; 
  float:left;
- width:200px;
- margin-right: 50px;
+ width:33%;
+ /*margin-left: 50px;*/
 } 
 #impressum {
- background-color:yellow;  
- border:2px dotted black; 
- float:right;
- width:200px;
- /*margin-left:200px;*/
+ float:left;
+ width:16%;
+ /*margin-left: 50px;*/
 } 
 /*css footer navigation ende */
 
